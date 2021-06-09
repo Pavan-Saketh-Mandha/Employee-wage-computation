@@ -1,5 +1,5 @@
 import java.util.*;
-public class EmployeewageUC6
+public class EmployeewageUC4
 {
 	public static void main(String[] args) 
 	{
@@ -13,7 +13,6 @@ public class EmployeewageUC6
                 int fullday=8;
 		int parttime=4;
 		int totaldays=20;
-		int totalhours=100;
 
 		int ispresent = (int)(Math.random() * 3);
 		switch (ispresent)
@@ -22,34 +21,19 @@ public class EmployeewageUC6
 		    System.out.println("Employee is Present");
 			int dailywage1 = wage * fullday;
 			System.out.println("Daily Wage is: " + dailywage1);
-		    int daymonthlywage1 = dailywage1 * totaldays;
-			int hoursmonthlywage1 = wage * totalhours;
-			if (daymonthlywage1 < hoursmonthlywage1)
-			{
-				System.out.println("Monthly Wage is: " + daymonthlywage1);
-			}
-			else
-			{
-			    System.out.println("Monthly Wage is: " + hoursmonthlywage1);
-			}
+		    int monthlywage1 = dailywage1 * totaldays;
+			System.out.println("Monthly Wage is: " + monthlywage1);
 			break;
 		case 2:
 			System.out.println("Employee is Present Part Time");
 			int dailywage2 = wage * parttime;
 			System.out.println("Employee Daily Wage is: " + dailywage2);
-		    int daymonthlywage2 = dailywage2 * totaldays;
-			int hoursmonthlywage2 = wage * totalhours;
-			if (daymonthlywage2 < hoursmonthlywage2)
-			{
-				System.out.println("Monthly Wage is: " + daymonthlywage2);
-			}
-			else
-			{
-			    System.out.println("Monthly Wage is: " + hoursmonthlywage2);
-			}
+		    int monthlywage2 = dailywage2 * totaldays;
+			System.out.println("Monthly Wage is: " + monthlywage2);
 			break;
         default:
 			System.out.println("Employee is Absent");
 		}
     }
 }
+
