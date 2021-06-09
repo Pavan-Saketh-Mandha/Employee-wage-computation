@@ -1,5 +1,5 @@
 import java.util.*;
-public class EmployeewageUC4
+public class EmployeewageUC5
 {
 	public static void main(String[] args) 
 	{
@@ -10,7 +10,7 @@ public class EmployeewageUC4
 		System.out.println("Part time Hour is 4");
 
 		int wage=20;
-                int fullday=8;
+        int fullday=8;
 		int parttime=4;
 		int totaldays=20;
 
@@ -36,4 +36,3 @@ public class EmployeewageUC4
 		}
     }
 }
-
