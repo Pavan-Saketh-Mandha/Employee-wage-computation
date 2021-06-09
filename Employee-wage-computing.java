@@ -10,7 +10,7 @@ public class EmployeewageUC6
 		System.out.println("Part time Hour is 4");
 
 		int wage=20;
-                int fullday=8;
+        int fullday=8;
 		int parttime=4;
 		int totaldays=20;
 		int totalhours=100;
@@ -22,7 +22,7 @@ public class EmployeewageUC6
 		    System.out.println("Employee is Present");
 			int dailywage1 = wage * fullday;
 			System.out.println("Daily Wage is: " + dailywage1);
-		        int daymonthlywage1 = dailywage1 * totaldays;
+		    int daymonthlywage1 = dailywage1 * totaldays;
 			int hoursmonthlywage1 = wage * totalhours;
 			if (daymonthlywage1 < hoursmonthlywage1)
 			{
@@ -37,8 +37,8 @@ public class EmployeewageUC6
 			System.out.println("Employee is Present Part Time");
 			int dailywage2 = wage * parttime;
 			System.out.println("Employee Daily Wage is: " + dailywage2);
-		        int daymonthlywage2 = dailywage2 * totaldays;
-		   	int hoursmonthlywage2 = wage * totalhours;
+		    int daymonthlywage2 = dailywage2 * totaldays;
+			int hoursmonthlywage2 = wage * totalhours;
 			if (daymonthlywage2 < hoursmonthlywage2)
 			{
 				System.out.println("Monthly Wage is: " + daymonthlywage2);
@@ -48,7 +48,7 @@ public class EmployeewageUC6
 			    System.out.println("Monthly Wage is: " + hoursmonthlywage2);
 			}
 			break;
-               default:
+        default:
 			System.out.println("Employee is Absent");
 		}
     }
