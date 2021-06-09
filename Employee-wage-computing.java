@@ -10,7 +10,7 @@ public class EmployeewageUC6
 		System.out.println("Part time Hour is 4");
 
 		int wage=20;
-        int fullday=8;
+                int fullday=8;
 		int parttime=4;
 		int totaldays=20;
 		int totalhours=100;
