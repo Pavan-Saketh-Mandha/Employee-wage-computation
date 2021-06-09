@@ -10,7 +10,7 @@ public class EmployeewageUC4
 		System.out.println("Part time Hour is 4");
 
 		int wage=20;
-        int fullday=8;
+                int fullday=8;
 		int parttime=4;
 		int totaldays=20;
 
@@ -31,7 +31,7 @@ public class EmployeewageUC4
 		    int monthlywage2 = dailywage2 * totaldays;
 			System.out.println("Monthly Wage is: " + monthlywage2);
 			break;
-        default:
+                default:
 			System.out.println("Employee is Absent");
 		}
     }
