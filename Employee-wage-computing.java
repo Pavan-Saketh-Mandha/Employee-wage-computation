@@ -33,7 +33,7 @@ public class Employee_wageUC8 {
         Employee_wageUC8 dmart = new Employee_wageUC8("D-MART", 20, 20, 100);
 
 
-        Employee_wageUC8 reliance = new Employee_wageUC8("Reliance Retail", 10, 30, 200);
+        Employee_wageUC8 reliance = new Employee_wageUC8("Reliance Retail", 15, 30, 100);
 
         employee_attendance(dmart.Company_Name, dmart.Wage_Per_Hour, dmart.NumberOfWorkingDays, dmart.MaxWorkingHours);
         System.out.println();
